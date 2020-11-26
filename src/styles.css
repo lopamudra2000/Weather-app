@@ -1,0 +1,23 @@
+*,*::before,*::after{
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+body{
+    top:0;
+    left:0;
+    padding:0;
+    margin:0;
+    width:100%;
+    min-height:110vh;
+    position:fixed;
+    z-index:-1;
+    background-image: url(https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2012/Astrophotography-pinpoint-stars/Media/Deb-S-Indian-River-Lagoon-single-shot.jpg);
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
